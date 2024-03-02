@@ -1,0 +1,143 @@
+
+@font-face {
+    src: url('Fonts/TisaSansProRegular.ttf');
+}
+@font-face {
+    src: url('Fonts/TisaSansProBold.ttf');
+}
+
+*{
+    -fx-font-smoothing-type: gray;
+}
+
+.date-picker {
+    -fx-primary-color: #237E41;
+    -fx-secondary-color: teal;
+    -fx-light-grey-color: #d1d1d1;
+
+    -fx-focus-color: -fx-secondary-color;
+}
+.date-picker > .text-field {
+    -fx-prompt-text-fill:  #404040;
+    -fx-font-size: 15;
+}
+.date-picker .arrow-button {
+    -fx-background-color: -fx-primary-color;
+    -fx-background-radius: 0;
+    -fx-font-size: 20;
+    -fx-cursor: HAND;
+}
+.date-picker .arrow-button:hover {
+    -fx-background-color: -fx-secondary-color;
+}
+.date-picker .arrow-button .arrow {
+    -fx-background-color: white;
+}
+.date-picker .cell {
+    -fx-background-color: white;
+}
+.date-picker .cell:hover {
+    -fx-background-color: -fx-light-grey-color;
+}
+.date-picker .cell:focused {
+    -fx-background-color: -fx-light-grey-color;
+}
+.date-picker .selected {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: white;
+}
+.date-picker .selected:focused {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: white;
+}
+.date-picker-popup  {
+    -fx-border-color: transparent;
+}
+.date-picker-popup .month-year-pane {
+    -fx-background-color: -fx-primary-color;
+}
+.date-picker-popup .month-year-pane .label {
+    -fx-text-fill: white;
+}
+.date-picker-popup .week-number-cell {
+    -fx-text-fill: -fx-secondary-color;
+}
+
+.combo-box{
+    -fx-font-family: "Tisa Sans Pro";
+    -fx-font-size: 13;
+    -fx-prompt-text-fill: #404040;
+}
+
+.text-field{
+    -fx-font-family: "Tisa Sans Pro";
+    -fx-font-size: 15;
+}
+.password-field{
+    -fx-font-family: "Tisa Sans Pro";
+    -fx-font-size: 15;
+}
+
+#registerLoginButton {
+    -fx-font-family: "Tisa Sans Pro";
+    -fx-background-color: #237E41;
+    -fx-font-size: 25;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#PopupButton{
+    -fx-font-family: "Tisa Sans Pro";
+    -fx-background-color: #237E41;
+    -fx-font-size: 14;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+#logoButton{
+    -fx-background-radius: 70;
+}
+
+#titleLabel {
+    -fx-font-family: "Tisa Sans Pro";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 40;
+}
+
+#popUpPrenotazioneLabel{
+    -fx-font-family: "Tisa Sans Pro";
+    -fx-text-fill: black;
+    -fx-font-size: 17;
+}
+
+#Area_Dipendenti{
+    -fx-font-family: "Tisa Sans Pro";
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-size: 14;
+}
+
+#TitleADipendenti{
+    -fx-font-family: "Tisa Sans Pro";
+    -fx-background-color: #237E41;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#TitleMailPassword{
+    -fx-font-family: "Tisa Sans Pro";
+    -fx-background-color: #237E41;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#LabelMailPassword{
+    -fx-font-size: 15;
+    -fx-font-family: "Tisa Sans Pro";
+    -fx-background-color: #237E41;
+    -fx-text-fill: white;
+}
+

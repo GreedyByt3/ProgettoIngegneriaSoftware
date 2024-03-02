@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lista_anagrafe xmlns="">
+	<persona categoria= "TEST" cd_fiscale="TEST">
+		<nome>TEST</nome>
+		<cognome>TEST</cognome>
+		<numTessera>TEST</numTessera>
+		<luogoNascita>TEST</luogoNascita>
+		<dataNascita>1/1/2001</dataNascita>
+	</persona>
+
+	<persona categoria= "DIPLOMATICO" cd_fiscale="ZTISRL43P57H703K">
+		<nome>SMERALDA</nome>
+		<cognome>ZITO</cognome>
+		<numTessera>58763958414963650171</numTessera>
+		<luogoNascita>SALERNO</luogoNascita>
+		<dataNascita>17/9/1943</dataNascita>
+	</persona>
+
+	<persona categoria= "PENSIONATO" cd_fiscale="TRVSVS63A25D205M">
+		<nome>SILVESTRO</nome>
+		<cognome>TREVISAN</cognome>
+		<numTessera>90961907189631377841</numTessera>
+		<luogoNascita>CUNEO</luogoNascita>
+		<dataNascita>25/1/1963</dataNascita>
+	</persona>
+
+	<persona categoria= "CITTADINO" cd_fiscale="GLLBTE92T27L781L">
+		<nome>BEATO</nome>
+		<cognome>GALLO</cognome>
+		<numTessera>60332117028023677559</numTessera>
+		<luogoNascita>VERONA</luogoNascita>
+		<dataNascita>27/12/1992</dataNascita>
+	</persona>
+
+	<persona categoria= "INVALIDO" cd_fiscale="BRSCSR81T08F537V">
+		<nome>CESARE</nome>
+		<cognome>BARESE</cognome>
+		<numTessera>35116804696691560225</numTessera>
+		<luogoNascita>VIBOVALENTIA</luogoNascita>
+		<dataNascita>8/12/1981</dataNascita>
+	</persona>
+
+	<persona categoria= "STUDENTE" cd_fiscale="MRCBNC97H08C632W">
+		<nome>BRANCALEONE</nome>
+		<cognome>MARCHESI</cognome>
+		<numTessera>99937271967768930703</numTessera>
+		<luogoNascita>CHIETI</luogoNascita>
+		<dataNascita>8/6/1997</dataNascita>
+	</persona>
+
+	<persona categoria= "CITTADINO" cd_fiscale="CSTCTN72A64A345V">
+		<nome>CETTINA</nome>
+		<cognome>COSTA</cognome>
+		<numTessera>81174021956783075706</numTessera>
+		<luogoNascita>L'AQUILA</luogoNascita>
+		<dataNascita>24/1/1972</dataNascita>
+	</persona>
+</lista_anagrafe>
+
+
+
+
+
+

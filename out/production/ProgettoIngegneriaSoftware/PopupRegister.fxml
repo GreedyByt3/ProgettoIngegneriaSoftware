@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegisterController">
+   <children>
+      <Label id="TitleMailPassword" alignment="CENTER" layoutX="125.0" layoutY="25.0" prefHeight="35.0" prefWidth="200.0" stylesheets="@StyleSheet.css" text="Mail e Password">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="3.0" radius="1.0" spread="1.0" width="3.0" />
+         </effect>
+      </Label>
+      <Label id="LabelMailPassword" layoutX="65.0" layoutY="80.0" prefHeight="48.0" prefWidth="317.0" style="-fx-border-style: solid;" stylesheets="@StyleSheet.css" text="Si prega di inserire un indirizzo mail e una password validi per poter accedere al sistema " textAlignment="CENTER" wrapText="true" />
+      <TextField fx:id="mailField" layoutX="99.0" layoutY="150.0" prefWidth="250.0" promptText="Mail" style="-fx-prompt-text-fill: #404040;" stylesheets="@StyleSheet.css" />
+      <Button id="registerLoginButton" layoutX="144.0" layoutY="260.0" mnemonicParsing="false" onAction="#mailPasswordFill" prefHeight="35.0" prefWidth="160.0" stylesheets="@StyleSheet.css" text="CONFIRM">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="3.0" radius="1.0" spread="1.0" width="3.0" />
+         </effect></Button>
+      <PasswordField fx:id="passwordField" layoutX="99.0" layoutY="208.0" prefWidth="250.0" promptText="Password" style="-fx-prompt-text-fill: #404040;" stylesheets="@StyleSheet.css" />
+   </children>
+</Pane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cittadini_iscritti>
+    <cittadino_registrato cd_fiscale="TEST">
+        <mail>test@test.com</mail>
+        <password>test</password>
+    </cittadino_registrato>
+    <cittadino_registrato cd_fiscale="ZTISRL43P57H703K">
+        <mail>smeralda.zito@mail.com</mail>
+        <password>Sm3r4Ld@</password>
+    </cittadino_registrato>
+    <cittadino_registrato cd_fiscale="GLLBTE92T27L781L">
+        <mail>gallo@mail.com</mail>
+        <password>g4Ll0B3@tO</password>
+    </cittadino_registrato>
+</cittadini_iscritti>

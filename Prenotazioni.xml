@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><prenotazioni>
+    <informazioni>
+        <lista_sedi>
+            <sedeDisp>Verona</sedeDisp>
+            <sedeDisp>Vicenza</sedeDisp>
+            <sedeDisp>Padova</sedeDisp>
+            <sedeDisp>Milano</sedeDisp>
+            <sedeDisp>Venezia</sedeDisp>
+            <sedeDisp>Trento</sedeDisp>
+            <sedeDisp>Trieste</sedeDisp>
+            <sedeDisp>Modena</sedeDisp>
+        </lista_sedi>
+        <tipo_prenotazioni>
+            <tipoDisp>Rilascio passaporto per la prima volta</tipoDisp>
+            <tipoDisp>Rilascio passaporto per scadenza</tipoDisp>
+            <tipoDisp>Rilascio passaporto per furto</tipoDisp>
+            <tipoDisp>Rilascio passaporto per smarrimento</tipoDisp>
+            <tipoDisp>Rilascio passaporto per deterioramento</tipoDisp>
+            <tipoDisp>Rilascio passaporto per diplomatici</tipoDisp>
+            <tipoDisp>Ritiro passaporto</tipoDisp>
+        </tipo_prenotazioni>
+    </informazioni>
+    <prenotazione id="1">
+        <sede>Verona</sede>
+        <giorno>20/7/2023</giorno>
+        <orario>9:30</orario>
+        <tipo>Rilascio passaporto per la prima volta</tipo>
+        <cittadino>TEST</cittadino>
+    </prenotazione>
+    <prenotazione id="2">
+        <sede>Venezia</sede>
+        <giorno>21/7/2023</giorno>
+        <orario>11:30</orario>
+        <tipo>Rilascio passaporto per deterioramento</tipo>
+        <cittadino>TEST</cittadino>
+    </prenotazione>
+    <prenotazione id="3">
+        <sede>Vicenza</sede>
+        <giorno>11/7/2023</giorno>
+        <orario>9:00</orario>
+        <tipo>Ritiro passaporto</tipo>
+        <cittadino/>
+    </prenotazione>
+    <prenotazione id="4">
+        <sede>Verona</sede>
+        <giorno>17/7/2023</giorno>
+        <orario>10:30</orario>
+        <tipo>Rilascio passaporto per furto</tipo>
+        <cittadino/>
+    </prenotazione>
+    <prenotazione id="5">
+        <sede>Trento</sede>
+        <giorno>29/7/2023</giorno>
+        <orario>10:00</orario>
+        <tipo>Rilascio passaporto per furto</tipo>
+        <cittadino/>
+    </prenotazione>
+    <prenotazione id="6">
+        <sede>Milano</sede>
+        <giorno>4/7/2023</giorno>
+        <orario>10:30</orario>
+        <tipo>Rilascio passaporto per deterioramento</tipo>
+        <cittadino/>
+    </prenotazione>
+    <prenotazione id="7">
+        <sede>Modena</sede>
+        <giorno>21/7/2023</giorno>
+        <orario>15:00</orario>
+        <tipo>Rilascio passaporto per furto</tipo>
+        <cittadino>TEST</cittadino>
+    </prenotazione>
+    <prenotazione id="8">
+        <sede>Verona</sede>
+        <giorno>23/7/2023</giorno>
+        <orario>15:00</orario>
+        <tipo>Rilascio passaporto per scadenza</tipo>
+        <cittadino/>
+    </prenotazione>
+    <prenotazione id="9">
+        <sede>Vicenza</sede>
+        <giorno>19/7/2023</giorno>
+        <orario>10:00</orario>
+        <tipo>Ritiro passaporto</tipo>
+        <cittadino/>
+    </prenotazione>
+    <prenotazione id="10">
+        <sede>Venezia</sede>
+        <giorno>26/7/2023</giorno>
+        <orario>11:00</orario>
+        <tipo>Rilascio passaporto per smarrimento</tipo>
+        <cittadino/>
+    </prenotazione>
+</prenotazioni>
